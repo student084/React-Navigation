@@ -1,4 +1,5 @@
 ## StackNavigator
+
 <p>
 StackNavigator提供了堆栈式的场景切换方式，切换时新场景将置于栈顶。
 </p>
@@ -7,6 +8,7 @@ StackNavigator提供了堆栈式的场景切换方式，切换时新场景将置
 ios从右边滑入，android从底部褪去。在ios上StackNavigator也可以通过配置该变切换动画
 ，使其从底部滑落。
 </p>
+
 ```javaScript
 class MyHomeScreen extends React.Component {
   static navigationOptions = {
@@ -38,10 +40,12 @@ const ModalStack = StackNavigator({
 StackNavigator(RouteConfigs, StackNavigatorConfig)
 ```
 ## RouteConfigs
+
 <P>
-路由配置(The route config object)是一个包含从路由名字到路由具体配置信息的对象,
+路由配置(The route config object)是一个包含从路由名字到路由具体配置信息的映射,
 它将指导navigator如何呈现当前路由。
 </P>
+
 ```javaScript
 StackNavigator({
 
@@ -66,16 +70,20 @@ StackNavigator({
 });
 ```
 ## StackNavigatorConfig
+
 <p>
 路由选择：
 </p>
+
 * `initialRouteName`-为栈设置默认的场景，必须是路由配置里已经配置过的一个场景。
 * `initialRouteParams`-初始路由参数
 * `navigationOptions`-场景中需要使用的默认navigation选项
 * `paths`-路由配置的地址映射（A mapping of overrides for the paths set in the route configs）
+
 <p>
 视觉选项：
 </p>
+
 * `mode`-定义渲染与动画样式,取值如下:
  * `card`-使用标准的ios和Android场景样式(default)
  * `modal`-使新场景从底部滑入，这是常见的ios样式，只在ios中有效，android无效
