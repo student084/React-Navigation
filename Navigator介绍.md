@@ -42,12 +42,12 @@ class App extends React.Component {
 
 ## Navigation Containers
 * 当navigation建立的navigator参数消失的时候，navigators会表现得像是顶层的navigators一样
- * 这种设计提供了一个透明的navigation container，它是顶层navigation的来源。
+  * 这种设计提供了一个透明的navigation container，它是顶层navigation的来源。
 
 * 当绘制一个被包含的navigators时，navigation prop是可选的。当其不存在时，container进入
 并且管理自己的navigation状态。它也处理URLs,额外的链接及Android上的返回按钮。
 * 为了方便，内置的navigators有这个能力，因为在场景前使用了`createNavigatonContainer`
-。通常，navigators需要一个navigaton prop去使用这个函数。
+  * 通常，navigators需要一个navigaton prop去使用这个函数。
 * 最上层的navigator接受如下参数：
 
 ### `onNavigationStateChange(prevState, newState, action)`
