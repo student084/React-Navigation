@@ -3,6 +3,37 @@
 ## 说明
 * 内容[React Navigation官方文档][1]翻译，仅供学习交流;
 * 点击[React Navigation中文阅读目录][2]开始阅读
+
+* 目录结构：
+
+|————Gettint
+    |————Hello Moblie Navigation
+    |————Nesting Navigators
+    |————Configuring Headers
+|————Navigators
+    |————Intro to Navigators
+    |————StackNavigator
+    |————TabNavigator
+    |————DrawerNavigator
+    |————The Navigation Prop
+    |————Navigation Actions
+    |————Screen Nav Option
+    |————Custom Navigators
+|————Advanced Guides
+    |————Redux Integration
+    |————Web Integration
+    |————Deep Linking
+    |————Screen Tracking
+    |————Contributors
+|————Routers
+    |————Routers
+    |————Custom Router API
+    |————StackRouter
+    |————TabRouter
+|————Views
+    |————Navigation Views
+    |————Transitioner
+
 * 如果转载请注明原翻译地址：[原翻译地址][2]
 * 技术QQ交流群：467950136;
 * 欢迎志愿者加入翻译工作；
