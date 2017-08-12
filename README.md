@@ -1,15 +1,15 @@
 ## 说明
 
-内容[React Navigation官方文档][1]翻译，仅供学习交流;<br/>
+内容[React Navigation官方文档][1]翻译，仅供学习交流;</br>
 点击[React Navigation中文阅读目录][2]开始阅读
-<br>
+</br>
 如果转载请注明原翻译地址：[原翻译地址][2]
-<br>技术QQ交流群：467950136;
-<br>
+</br>技术QQ交流群：467950136;
+</br>
 欢迎志愿者加入翻译工作；
-<br>
+</br>
 我们的工作离不开你们的支持，捐赠方式：
-[支付宝捐赠[3]
+[支付宝捐赠][3]
 [微信捐赠][4]
 [1]:https://reactnavigation.org/docs
 [2]:https://github.com/jiarWang/React-Navigation
