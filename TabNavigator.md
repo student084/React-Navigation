@@ -1,7 +1,8 @@
 ## TabNavigator
-<p>
-TabNavigator快速建立一个含有几个选择栏和一个路由选择器的场景，[官方demo](https://exp.host/@react-navigation/NavigationPlayground)
-</p>
+
+TabNavigator快速建立一个含有几个选择栏和一个路由选择器的场景，[官方demo][1]
+
+[1]:https://exp.host/@react-navigation/NavigationPlayground
 
 ```javaScript
 class MyHomeScreen extends React.Component {
@@ -68,14 +69,17 @@ const MyApp = TabNavigator({
 });
 ```
 ## API定义
-<p>
+
+</br>
+
 `TabNavigator(RouteCofigs, TabNavigatorConfig)`
-</p>
 ### RouteConfigs
-<p>
-路由配置对象，路由名到路由配置的映射，告诉navigator当前的路由，see [example](https://reactnavigation.org/docs/api/navigators/StackNavigator.md#routeconfigs) from 
+
+</br>
+路由配置对象，路由名到路由配置的映射，告诉navigator当前的路由，see [example][2] from 
 `StackNavigator`。
-</p>
+
+[2]:https://reactnavigation.org/docs/api/navigators/StackNavigator.md#routeconfigs
 
 ### TabNavigatorConfig
 
@@ -152,28 +156,27 @@ tabBarOptions: {
 ```
 ## 场景导航选项
 ### `title`
-<p>
+
 可作为`headerTitle`和`tabBarLabel`后备的通用标题
-</p>
+
 ### `tabBarVisible`
-<p>
+
 是否显示标签栏，默认为true
-</p>
+
 ### `tabBarIcon`
-<p>
+
 React元素，或者含有`{focused: boolean, tintColor:string}`,且返回值为React元素的方法
 ，此元素将显示在导航栏上
-</p>
 ### `tabBarLabel`
-<p>
+
 在导航栏上显示的标题字符串或者是React元素，或者是含有`{focused: boolean, tintColor:string}`,且返回值为React元素的方法
 ，此元素将显示在导航栏上。入果没有定义则为场景`title`。
 若要隐藏，查看之前的`tabBarOptions.showLabel`。
-</p>
+
 ## 导航参数
-<p>
+
 由`TabNavigator(...)`方法创造的导航组件，属性如下：
-</p>
+
 
 * `screenProps`-传递给子场景和导航选项额外的选项，例如：
 ```javaScript
