@@ -36,8 +36,9 @@ const MainScreenNavigator = TabNavigator({
 ## 在屏幕中镶嵌Navigator
 
 <p>当我们只想让选项Tabs在第一个场景中可见，在新的场景到来的时候将选项Tabs覆盖住。</p>
-<p>
-新建一个Tab Navigator，将最上层的场景命名为`StackNavigator`，使其效果达到[上一步的效果](https://code.csdn.net/weixin_36570478/native-navigation/wikis/Home)。</p>
+</br>
+
+新建一个Tab Navigator，将最上层的场景命名为`StackNavigator`，使其效果达到[上一步的效果](https://code.csdn.net/weixin_36570478/native-navigation/wikis/Home)。
 
 ```javaScript
 const SimpleApp = StackNavigator({
@@ -45,7 +46,9 @@ const SimpleApp = StackNavigator({
   Chat: { screen: ChatScreen },
 });
 ```
-<p>由于`MainScreenNavigator`被视为是一个场景，我们便可以给它一个`navigationOptions`：由于`MainScreenNavigator`被视为是一个场景，我们便可以给它一个`navigationOptions`：</p>
+</br>
+
+由于`MainScreenNavigator`被视为是一个场景，我们便可以给它一个`navigationOptions`：由于`MainScreenNavigator`被视为是一个场景，我们便可以给它一个`navigationOptions`：
 
 ```javaScript
 MainScreenNavigator.navigationOptions = {
@@ -60,8 +63,9 @@ MainScreenNavigator.navigationOptions = {
   title="Chat with Lucy"
 />
 ```
+</br>
 
-<p>现在我们就已经把一个navigator嵌入另一个navigator中了，我们可以在两个navigator中`navigate`了：现在我们就已经把一个navigator嵌入另一个navigator中了，我们可以在两个navigator中`navigate`了：</p>
+现在我们就已经把一个navigator嵌入另一个navigator中了，我们可以在两个navigator中`navigate`了：现在我们就已经把一个navigator嵌入另一个navigator中了，我们可以在两个navigator中`navigate`了：
 
 *** Android *** ![android](https://reactnavigation.org/assets/examples/nested-android.png)
 *** iPhone *** ![iPhone](https://reactnavigation.org/assets/examples/nested-iphone.png)
