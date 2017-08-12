@@ -5,11 +5,11 @@
 * 点击[React Navigation中文阅读目录][2]开始阅读
 
 * 目录结构：
-
+```js
 |————Gettint
-    |————Hello Moblie Navigation
-    |————Nesting Navigators
-    |————Configuring Headers
+|————|————Hello Moblie Navigation
+|————|————Nesting Navigators
+|————|————Configuring Headers
 |————Navigators
     |————Intro to Navigators
     |————StackNavigator
@@ -33,7 +33,7 @@
 |————Views
     |————Navigation Views
     |————Transitioner
-
+```
 * 如果转载请注明原翻译地址：[原翻译地址][2]
 * 技术QQ交流群：467950136;
 * 欢迎志愿者加入翻译工作；
