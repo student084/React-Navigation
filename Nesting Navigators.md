@@ -27,8 +27,9 @@ const MainScreenNavigator = TabNavigator({
   All: { screen: AllContactsScreen },
 });
 ```
+</br>
 
-<p>如果`MainScreenNavigator`在navigator组件的最上层，那么结果则是：</p>
+如果`MainScreenNavigator`在navigator组件的最上层，那么结果则是：
 
 *** Android *** ![android](https://reactnavigation.org/assets/examples/simple-tabs-android.png)
 *** iPhone *** ![iPhone](https://reactnavigation.org/assets/examples/simple-tabs-iphone.png)
