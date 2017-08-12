@@ -13,9 +13,9 @@
 |————Gettint
 |   |————Hello Moblie Navigation
 |   |————Nesting Navigators
-|   |————Configuring Headers
+|   |————Header配置
 |————Navigators
-|   |————Intro to Navigators
+|   |————Navigators介绍 
 |   |————StackNavigator
 |   |————TabNavigator
 |   |————DrawerNavigator
