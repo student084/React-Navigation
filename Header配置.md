@@ -45,8 +45,8 @@ static navigationOptions = {
   ...
 ```
 <div>
-<a style="display:inline-block">Android<img src='https://reactnavigation.org/assets/examples/header-button-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
-<a style="display:inline-block">iPhone<img src='https://reactnavigation.org/assets/examples/header-button-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** Android ***<img src='https://reactnavigation.org/assets/examples/header-button-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** iPhone ***<img src='https://reactnavigation.org/assets/examples/header-button-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
 </div>
 
 * navigation options可以被定义成一个navigation prop,下例通过路由参数渲染了一个不同的button，并且
@@ -72,8 +72,8 @@ static navigationOptions = ({ navigation }) => {
 * 现在，头部可以与场景的路由和状态互动了
 
 <div>
-<a style="display:inline-block">Android<img src='https://reactnavigation.org/assets/examples/header-interaction-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
-<a style="display:inline-block">iPhone<img src='https://reactnavigation.org/assets/examples/header-interaction-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** Android ***<img src='https://reactnavigation.org/assets/examples/header-interaction-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** iPhone ***<img src='https://reactnavigation.org/assets/examples/header-interaction-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
 </div>
 
 * 了解更多header options信息，见于[navigation options document][1]。
