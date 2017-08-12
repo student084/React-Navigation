@@ -1,7 +1,7 @@
 ## 说明
-WIKI内容[React Navigation官方文档][1]翻译，仅供学习交流;
-<br>
-点击上面“** 页面  **”可直接进入，[React Navigation中文阅读目录][2]
+
+内容[React Navigation官方文档][1]翻译，仅供学习交流;<br/>
+点击[React Navigation中文阅读目录][2]开始阅读
 <br>
 如果转载请注明原翻译地址：[原翻译地址][2]
 <br>技术QQ交流群：467950136;
