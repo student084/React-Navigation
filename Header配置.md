@@ -31,8 +31,8 @@ class ChatScreen extends React.Component {
 }
 ```
 <div>
-<a style="display:inline-block">Android<img src='https://reactnavigation.org/assets/examples/basic-header-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
-<a style="display:inline-block">iPhone<img src='https://reactnavigation.org/assets/examples/basic-header-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** Android ***<img src='https://reactnavigation.org/assets/examples/basic-header-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** iPhone ***<img src='https://reactnavigation.org/assets/examples/basic-header-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
 </div>
 
 ## 添加右部按钮
