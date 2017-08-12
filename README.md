@@ -18,7 +18,7 @@
 |————Navigators
 |   |————Navigators介绍 
 |   |————StackNavigator
-|   |————TabNavigator*
+|   |————TabNavigator
 |   |————DrawerNavigator*
 |   |————The Navigation Prop*
 |   |————Navigation Actions*
