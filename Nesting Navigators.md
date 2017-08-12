@@ -39,6 +39,7 @@ const MainScreenNavigator = TabNavigator({
 </br>
 
 新建一个Tab Navigator，将最上层的场景命名为`StackNavigator`，使其效果达到[上一步的效果][1]
+
 [1]:https://github.com/jiarWang/React-Navigation/blob/master/Nesting%20Navigators.md
 
 ```javaScript
