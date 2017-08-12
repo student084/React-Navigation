@@ -10,6 +10,7 @@
 * 欢迎志愿者加入翻译工作；
 * 目录结构：
 ```js
+//带‘*’后缀的为未翻译的
 |————Gettint
 |   |————Hello Moblie Navigation
 |   |————Nesting Navigators
@@ -17,26 +18,26 @@
 |————Navigators
 |   |————Navigators介绍 
 |   |————StackNavigator
-|   |————TabNavigator
-|   |————DrawerNavigator
-|   |————The Navigation Prop
-|   |————Navigation Actions
-|   |————Screen Nav Option
-|   |————Custom Navigators
+|   |————TabNavigator*
+|   |————DrawerNavigator*
+|   |————The Navigation Prop*
+|   |————Navigation Actions*
+|   |————Screen Nav Option*
+|   |————Custom Navigators*
 |————Advanced Guides
-|   |————Redux Integration
-|   |————Web Integration
-|   |————Deep Linking
-|   |————Screen Tracking
-|   |————Contributors
+|   |————Redux Integration*
+|   |————Web Integration*
+|   |————Deep Linking*
+|   |————Screen Tracking*
+|   |————Contributors*
 |————Routers
-|   |————Routers
-|   |————Custom Router API
-|   |————StackRouter
-|   |————TabRouter
+|   |————Routers*
+|   |————Custom Router API*
+|   |————StackRouter*
+|   |————TabRouter*
 |————Views
-|   |————Navigation Views
-|   |————Transitioner
+|   |————Navigation Views*
+|   |————Transitioner*
 ```
 * 我们的工作离不开你们的支持，捐赠方式：
 <div>
