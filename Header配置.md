@@ -2,7 +2,6 @@
 
 * Header 只在StackNavigator中有效。
 * 在演示的例子中，我们建立了一个StackNavigator来播放几个场景的app。
-</br>
 * 当导航跳转到chat场景时，我们可以通过navigate方法为这个新的路由定义一些参数。在这个
 例子中，我们想为chat场景提供联系人的名字:
 
