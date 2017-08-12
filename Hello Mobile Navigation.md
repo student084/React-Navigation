@@ -19,11 +19,10 @@ react-native run-ios
 ```
 <p>判别是否成功建立这个空的app，如果成功则有如下效果：</p>
 
-*** Android *** ![Android][1]
-*** iPhone *** ![iPhone][2]
-
-[1]:https://reactnavigation.org/assets/examples/bare-project-android.png
-[2]:https://reactnavigation.org/assets/examples/bare-project-iphone.png
+<div>
+<a style="display:inline-block">*** Android ***<img src='https://reactnavigation.org/assets/examples/bare-project-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** iPhone ***<img src='https://reactnavigation.org/assets/examples/bare-project-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+</div>
 
 <p>我们希望ios和Android能共享代码，所以我们接下来要删除`index.ios.js`和`index.androdi.js`
 里面的内容，并将内容替换为`import'./App'`。
@@ -72,11 +71,12 @@ AppRegistry.registerComponent('SimpleApp', () => SimpleApp);
 现在，同样的场景又能显示了：
 </p>
 
-*** Android *** ![Android][3]
-*** iPhone *** ![iPhone][4]
+<div>
+<a style="display:inline-block">*** Android ***<img src='https://reactnavigation.org/assets/examples/first-screen-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** iPhone ***<img src='https://reactnavigation.org/assets/examples/first-screen-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+</div>
 
-[3]:https://reactnavigation.org/assets/examples/first-screen-android.png
-[4]:https://reactnavigation.org/assets/examples/first-screen-iphone.png
+
 
 ## 添加新的场景
 
@@ -137,11 +137,11 @@ const SimpleApp = StackNavigator({
 现在则能在导航中进入或退出新的场景了：
 </p>
 
-*** Android *** ![Android][5]
-*** iPhone *** ![iPhone][6]
+<div>
+<a style="display:inline-block">*** Android ***<img src='https://reactnavigation.org/assets/examples/first-navigation-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** iPhone ***<img src='https://reactnavigation.org/assets/examples/first-navigation-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+</div>
 
-[5]:https://reactnavigation.org/assets/examples/first-navigation-android.png
-[6]:https://reactnavigation.org/assets/examples/first-navigation-iphone.png
 
 ## 参数传递
 <p>
@@ -198,8 +198,7 @@ class ChatScreen extends React.Component {
 现在你可以在导航到Chatscreen里时看到传过来的name了。试着修改`HomeScreen`中的`user`参数，see what happens!
 </p>
 
-*** Android *** ![Android][7]
-*** iPhone *** ![iPhone][8]
-
-[7]:https://reactnavigation.org/assets/examples/first-navigation-android.png
-[8]:https://reactnavigation.org/assets/examples/first-navigation-iphone.png
+<div>
+<a style="display:inline-block">*** Android ***<img src='https://reactnavigation.org/assets/examples/first-navigation-android.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+<a style="display:inline-block">*** iPhone ***<img src='https://reactnavigation.org/assets/examples/first-navigation-iphone.png' padding-top=65px padding-left=18px width=312px height=629px/></a>
+</div>
