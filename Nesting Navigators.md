@@ -38,7 +38,8 @@ const MainScreenNavigator = TabNavigator({
 <p>当我们只想让选项Tabs在第一个场景中可见，在新的场景到来的时候将选项Tabs覆盖住。</p>
 </br>
 
-新建一个Tab Navigator，将最上层的场景命名为`StackNavigator`，使其效果达到[上一步的效果](https://code.csdn.net/weixin_36570478/native-navigation/wikis/Home)。
+新建一个Tab Navigator，将最上层的场景命名为`StackNavigator`，使其效果达到[上一步的效果][1]
+[1]:https://github.com/jiarWang/React-Navigation/blob/master/Nesting%20Navigators.md
 
 ```javaScript
 const SimpleApp = StackNavigator({
